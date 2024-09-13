@@ -1,0 +1,19 @@
+aritifact_root: aritifacts
+
+data_ingestion:
+  root_dir: aritifacts/data_ingestion
+  URL: https://github.com/ldotmithu/Dataset/raw/main/Visadataset.zip
+  local_data_path: aritifacts/data_ingestion/data.zip
+  unzip_dir: aritifacts/data_ingestion
+
+data_transfomation:
+  root_dir: aritifacts/data_transfomation
+  data_path: aritifacts/data_ingestion/Visadataset.csv
+
+model_training:
+  root_dir: aritifacts/model_training
+  test_data_path: aritifacts/data_transfomation/test.csv
+  train_data_path: aritifacts/data_transfomation/train.csv
+  model_name: model.joblib
+  preprocess_path: aritifacts/model_training/preprocess.pkl
+

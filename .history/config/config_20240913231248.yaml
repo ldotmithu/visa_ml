@@ -1,0 +1,5 @@
+aritifact_root: aritifacts
+
+data_ingestion:
+  root_dir: aritifacts/data_ingestion
+  URL: 

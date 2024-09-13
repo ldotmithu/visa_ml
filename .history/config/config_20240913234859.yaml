@@ -1,0 +1,11 @@
+aritifact_root: aritifacts
+
+data_ingestion:
+  root_dir: aritifacts/data_ingestion
+  URL: https://github.com/ldotmithu/Dataset/raw/main/Visadataset.zip
+  local_data_path: aritifacts/data_ingestion/data.zip
+  unzip_dir: aritifacts/data_ingestion
+
+data_transfomation:
+  root_dir: aritifacts/data_transfomation
+  data_path: aritifacts\data_ingestion\Visadataset.csv
